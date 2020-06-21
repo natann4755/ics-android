@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    tools:context=".controller.usermanagement.SignUpFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="134"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/sign_up_sign_up_TEXT"
+        android:textSize="@dimen/text_size_very_big"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="74"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="50"
+    android:id="@+id/sign_up_facbook_BUTTON"
+    android:background="@color/grey"
+    android:text="@string/facebook"
+    android:textAllCaps="false"
+    android:textSize="@dimen/text_size_big"
+    android:textColor="@android:color/black">
+    </Button>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@color/grey"
+        android:id="@+id/sign_up_gmail_BUTTON"
+        android:text="@string/gmail"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_size_big"
+        android:textColor="@android:color/black"
+
+        >
+    </Button>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="21"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="14dp"
+            android:background="@color/greyDark"
+            android:layout_height="1dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/or"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_medium"
+            android:fontFamily="@font/assistant_semibold"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="14dp"
+            android:background="@color/greyDark"
+            android:layout_height="1dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:textAllCaps="false"
+        android:background="@color/grey"
+        android:id="@+id/sign_up_email_BUTTON"
+        android:text="@string/email"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_big"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="96"/>
+
+    <TextView
+        android:id="@+id/sign_up_skip_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/assistant_semibold"
+        android:text="@string/skip"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_big" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/assistant_semibold"
+            android:text="@string/already_have_an_account"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up_log_in_TEXT"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/assistant_semibold"
+            android:text="@string/log_in"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="62"/>
+
+</LinearLayout>

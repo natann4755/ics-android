@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/padding_screen"
+    android:layout_marginEnd="@dimen/padding_screen"
+    android:orientation="vertical"
+    tools:context="com.example.icsproject.controller.usermanagement.VerificationPhoneNumberFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="53" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verification"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_very_big"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verify_your_phone_number"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_big"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_choose_a_country_and_enter_your_mobile_phone_number_below"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_medium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_phone_number"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_medium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" />
+
+    <EditText
+        android:id="@+id/F_VerificationPhoneNumber_ET"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="67"
+        android:background="@drawable/suve_edit_text_background"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/marine"
+        tools:text="+9725244139" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="145" />
+
+    <Button
+        android:id="@+id/F_VerificationPhoneNumber_send_code_BU"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@color/marine"
+        android:text="@string/send_code"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_medium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+
+
+    <Button
+        android:id="@+id/F_VerificationPhoneNumber_skip_BU"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@android:color/white"
+        android:text="@string/skip"
+        android:textAllCaps="false"
+        android:textColor="@color/marine"
+        android:textSize="@dimen/text_size_medium" />
+
+
+</LinearLayout>
